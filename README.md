@@ -1,12 +1,13 @@
-# raspberryPi-led-monitor-backlight
+# Build your own PC monitor backlight
 A Python implementation to backlight your computer screen using a Raspberry Pi.
 
 ## Example
 ### Requirements
-* Raspberry Pi
+* Raspberry Pi to run the server script
 * Adafruit Neopixel LED strip
 * Jumper Wires
 * 5-12V power supply
+* PC to run the client script
 ### Pictures
 ![Example2](img/example2.jpg)
 ![Example1](img/example1.jpg)
