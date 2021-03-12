@@ -39,8 +39,7 @@ def get_pixel_colour(x, y, w, h, steps):
 
 def client_program():
     global screen
-    # 192.0.2.0
-    host = "192.168.2.120"
+    host = "192.0.2.0"
     port = 5000  # socket server port number
     client_socket = socket.socket()  # instantiate
     client_socket.connect((host, port))  # connect to the server
