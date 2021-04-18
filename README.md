@@ -9,6 +9,10 @@ The calculated color values are then transferred to the Raspberry Pi, which sets
 This process is constantly repeated.
 
 ## Example
+### Pictures
+![Example2](img/example2.jpg)
+![Example1](img/example1.jpg)
+
 ### Requirements
 * PC to run the client script
 * Raspberry Pi for running the server script
@@ -16,11 +20,11 @@ This process is constantly repeated.
 * Jumper Wires
 * 5-12V power supply
 
-### Pictures
-![Example2](img/example2.jpg)
-![Example1](img/example1.jpg)
+### How to use
+* run the server script on you raspberry pi
+* run the client script on your pc (set the ip address of your pi in the script before doing this)
 
-## Known problems
+### Known problems
 * slight delay between the display and the backlight
 
 ## Links

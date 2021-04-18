@@ -18,6 +18,8 @@ def get_rgb_as_string(rgb_color):
 
 def get_pixel_colour(x, y, w, h, steps):
     """
+    gets color value of a rectangle
+
     defines a rectangle
     x,y:mid of rectangle
     w,h:size
@@ -31,6 +33,7 @@ def get_pixel_colour(x, y, w, h, steps):
             rgb_average[0] += pixel_rgb[0]
             rgb_average[1] += pixel_rgb[1]
             rgb_average[2] += pixel_rgb[2]
+    # normalizes color value to represent the complete rectangle as one single value
     rgb_average[0] = round(rgb_average[0] / (w * h) * steps * steps)
     rgb_average[1] = round(rgb_average[1] / (w * h) * steps * steps)
     rgb_average[2] = round(rgb_average[2] / (w * h) * steps * steps)
@@ -39,7 +42,7 @@ def get_pixel_colour(x, y, w, h, steps):
 
 def client_program():
     global screen
-    host = "192.0.2.0"
+    host = "192.0.2.0"  # the ip of the raspberry pi here
     port = 5000  # socket server port number
     client_socket = socket.socket()  # instantiate
     client_socket.connect((host, port))  # connect to the server
