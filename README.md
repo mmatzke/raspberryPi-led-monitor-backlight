@@ -3,7 +3,7 @@ A Python implementation to backlight your computer screen using a Raspberry Pi.
 
 ## Explanation
 The client code on the desktop PC constantly takes a screenshot of the current image output. 
-This screenshot is then evaluated locally and the color values are calculated. 
+This screenshot is then getting evaluated locally by evaluating the color values at the edges of the screenshot.
 The color values are not immediately set to the new value, rather they approach fastly to the new value to create a smoother experience. 
 The calculated color values are then transferred to the Raspberry Pi, which sets the leds with the new color values. 
 This process is constantly repeated.
