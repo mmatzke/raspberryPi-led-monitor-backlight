@@ -26,6 +26,7 @@ This process is constantly repeated.
 
 ### Known problems
 * slight delay between the display and the backlight
+* only tested on Windows
 
 ## Links
 * Adafruit: https://www.adafruit.com/
