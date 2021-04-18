@@ -1,7 +1,7 @@
 # Build your own PC monitor backlight
 A Python implementation to backlight your computer screen using a Raspberry Pi.
 
-## Explanation
+## How it works
 The client code on the desktop PC constantly takes a screenshot of the current image output. 
 This screenshot is then getting evaluated locally by evaluating the color values at the edges of the screenshot.
 The color values are not immediately set to the new value, rather they approach fastly to the new value to create a smoother experience. 
