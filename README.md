@@ -18,7 +18,7 @@ This process is constantly repeated.
 * Raspberry Pi for running the server script
 * Adafruit Neopixel LED strip
 * Jumper Wires
-* 5-12V power supply
+* 5-12V power supply (5V GPIO on the Raspberry Pi is not recommend)
 
 ### How to use
 * run the server script on you raspberry pi
