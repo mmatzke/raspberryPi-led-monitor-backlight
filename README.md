@@ -1,6 +1,8 @@
 # Build your own PC monitor backlight
 A Python implementation to backlight your computer screen using a Raspberry Pi.
 
+This idea has been developed within the Make2Learn and Innovate Workshop of the project Morphoa (Open Photonik Pro) sponsored by Federal Ministry of Education and Research of Germany (BMBF)
+
 ## How it works
 The client code on the desktop PC constantly takes a screenshot of the current image output. 
 This screenshot is then getting evaluated locally by evaluating the color values at the edges of the screenshot.
@@ -31,3 +33,6 @@ This process is constantly repeated.
 ## Links
 * Adafruit: https://www.adafruit.com/
 * Wallpaper Source: https://www.pixelstalk.net/wp-content/uploads/2016/06/Color-Wallpapers-images-free-download-620x349.jpg
+
+This idea has been developed within the Make2Learn and Innovate Workshop of the project Morphoa (Open Photonik Pro) 
+sponsored by Federal Ministry of Education and Research of Germany (BMBF)
